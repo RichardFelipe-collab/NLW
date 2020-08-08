@@ -46,7 +46,8 @@ const styles = StyleSheet.create({
     footer:{
         backgroundColor:'#fafafc',
         padding:24,
-        alignItems:'center'
+        alignItems:'center',
+        marginTop:24
     },
     price:{
         fontFamily:'Poppins_400Regular',
@@ -74,6 +75,10 @@ const styles = StyleSheet.create({
         marginRight:8
 
     },
+    favorited:{
+        backgroundColor:'#e33d3d'
+    },
+
     contactButton:{
         backgroundColor:'#04d361',
        flex:1,

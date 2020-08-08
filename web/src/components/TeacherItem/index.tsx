@@ -8,7 +8,7 @@ import api from '../../services/api';
 export interface Teacher{
     id: number,
     subject: string,
-    cost: number
+    cost: number,
     name: string,
     avatar: string,
     whatsapp: string,
